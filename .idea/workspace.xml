@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff667e2c-4141-49d3-8c3c-66eefe44551c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/chinese-preview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/chinese-preview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/english-preview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/english-preview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/japanese-preview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/japanese-preview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/theme-preview.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/theme-preview.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/about/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +25,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/sally/Documents/blog/content/about"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/about" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />

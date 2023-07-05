@@ -5,7 +5,7 @@ title = "一期一会"                        # site title                     #
 theme = "hugo-theme-zozo"
 hasCJKLanguage = true                  # has chinese/japanese/korean ?  # 自动检测是否包含 中文\日文\韩文
 summaryLength = 100
-paginate = 7                           # shows the number of articles   # 首页显示文章数量
+paginate = 1                           # shows the number of articles   # 首页显示文章数量
 enableEmoji = true
 googleAnalytics = ""                   # your google analytics id       # Google统计代码
 disqusShortname = ""                   # your discuss shortname         # Disqus评论系统代码
@@ -42,8 +42,8 @@ pygmentscodefencesguesssyntax = true
   url = "/about/"
 
 [params]
-  subTitle = "一个简单的日常博客"                                       # site's subTitle              # 网站二级标题
-  footerSlogan = "无"                                   # site's footer slogan         # 网站页脚标语
+  subTitle = ""                                       # site's subTitle              # 网站二级标题
+  footerSlogan = ""                                   # site's footer slogan         # 网站页脚标语
   keywords = ["极简","生活","sally"]                                   # site's keywords              # 网站关键字
   description = "某人的日常博客"                        # site's description           # 网站描述
   enableMathJax = true                                                 # enable mathjax               # 是否使用mathjax（数学公式）
