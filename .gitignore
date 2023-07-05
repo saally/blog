@@ -1,0 +1,17 @@
+# Hugo default output directory
+/public
+
+# IntelliJ Idea directory
+/.idea
+
+## OS Files
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+*.map
+
+
