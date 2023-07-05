@@ -4,6 +4,7 @@
 # IntelliJ Idea directory
 /.idea
 .idea
+.idea/workspace.xml
 
 ## OS Files
 # Windows
