@@ -1,7 +1,7 @@
 baseURL = "http://localhost:1313/"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "一期一会"                        # site title                     # 网站标题
+title = "万物逆旅"                        # site title                     # 网站标题
 theme = "hugo-theme-zozo"
 hasCJKLanguage = true                  # has chinese/japanese/korean ?  # 自动检测是否包含 中文\日文\韩文
 summaryLength = 100
@@ -42,7 +42,7 @@ pygmentscodefencesguesssyntax = true
   url = "/about/"
 
 [params]
-  subTitle = "万物逆旅"                                       # site's subTitle              # 网站二级标题
+  subTitle = ""                                       # site's subTitle              # 网站二级标题
   footerSlogan = ""                                   # site's footer slogan         # 网站页脚标语
   keywords = ["极简","生活","自由","连结","美"]                                   # site's keywords              # 网站关键字
   description = "某人的日常博客"                        # site's description           # 网站描述
