@@ -3,7 +3,7 @@ title: "Bucket List"
 date: 2023-07-05
 draft: false
 tags: ["bucket list", "生活"]
-slug: "Chinese-Preview"
+slug: "bucket-list"
 ---
 
 > 对未来的一些畅想
