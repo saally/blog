@@ -17,7 +17,7 @@ html::-webkit-scrollbar-thumb {
   min-height: 16px;
   background-color: #999999;
   background-clip: padding-box;
-  border: 3px solid #fdfdfd;
+  border: 1px solid #fdfdfd;
   border-radius: 5px;
 }
 
@@ -229,7 +229,7 @@ hr {
 }
 
 .post .post_title span.date {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .post .post_detail_title h2 {
@@ -264,7 +264,7 @@ hr {
 
 .post .post_footer {
   padding: 20px 0;
-  border-bottom: 1px solid #f3f3f3;
+  /*border-bottom: 1px solid #f3f3f3; */
 }
 
 .post .post_footer .meta {
@@ -275,7 +275,7 @@ hr {
 
 .post .post_footer .meta .info {
   float: left;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .post .post_footer .meta .info .date {
