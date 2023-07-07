@@ -50,11 +50,9 @@ pygmentscodefencesguesssyntax = true
   enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
   mainSections = ["posts","post"]
   
-# Valine.
-# You can get your appid and appkey from https://leancloud.cn
-# more info please open https://valine.js.org
-[params.valine]
-  enable = false
+# whether to enable comments section
+[params.comments]
+  enable = true
   appId = ""
   appKey = ""
   placeholder = " "

@@ -5,17 +5,32 @@ https://github.com/lovezsh/hexo-theme-simple99/blob/main/source/css/twikoo.css
 
 .twikoo {
   width: 95%;
-  margin: 0 auto;
+  margin: 0px;
 }
 
-.el-textarea__inner {
+.el-textarea {
   height: 50px !important;
-  border: #f7f7f7;
+  border: black;
+  margin-left: 15px;
+  width: 98%;
 }
+
+.tk-input input:focus {
+    outline: none;
+    border: 5px;
+}
+
 
 .tk-time {
   display: inline !important;
 }
+
+.tk-icon.__comments {
+  color: #f7f7f7;
+}
+
+
+
 
 /* text comment */
 .tk-content {
@@ -24,25 +39,14 @@ https://github.com/lovezsh/hexo-theme-simple99/blob/main/source/css/twikoo.css
   border-radius: 5px;
 }
 
+/* mute thumbs up and comment icon.*/
+.tk-action-link .tk-action-icon {
+  display: none;
+}
 
-/* thumbs up and comment icon.
-mute
-*/
-.tk-action-link {
-  display: none;
-}
-.tk-action-icon {
-  display: none;
-}
+/* don't display avatar */
 .tk-avatar {
     display: none;
-}
-
-
-/* style at the bottom of the page */
-.tk-comment {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #f7f7f7;
 }
 
 /* don't display total comments */
@@ -50,19 +54,24 @@ mute
   display: none !important;
 }
 
+/* style at the bottom of the page */
+.tk-comment {
+    padding-top: 20px;
+    border-top: 1px solid #f7f7f7;
+  /* border-bottom: 1px solid #f7f7f7; */
+}
+
 /* nickname */
 .el-input-group__prepend {
-    background-color: #f7f7f7 !important;
+    background-color: white !important;
     color           : #000000 !important;
-    border          : #f7f7f7 !important;
-    border-radius: 20%;
+    border: none;
 }
 
-.el-input-group__append {
-    border: none !important;
-    border-radius: 20%;
+/ * empty input border
+.twikoo .el-input__inner:focus {
+   border: #000000;
 }
-
 
 .el-button {
   color: #000000;
@@ -70,15 +79,83 @@ mute
   border: none;
 }
 
-.el-button[disabled] {
+
+/* set submit button when no text put in */
+.twikoo .el-button--primary.is-disabled {
   color: #000000;
-  background-color: #f7f7f7;
+  background-color: #f7f7f7; !important
   border: none;
 }
-
 
 .el-button:hover {
   color: #FFFFFF;
   border-color: #000000;
   background-color: #303538;
 }
+
+/* don't show preview result */
+.tk-preview-container {
+  display: none;
+}
+
+.tk-row-actions-start {
+  display: none;
+}
+
+/* doesn't display markdown icon
+*/
+.tk-submit-action-icon.__markdown {
+  display: none;
+}
+
+/* doesn't display preview button */
+.twikoo .el-button:not(.el-button--primary):not(.el-button--text) {
+  display: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+input[type=text]:focus {
+  border: 2px;
+  border-color: #f7f7f7;
+  background-color: #f7f7f7;
+  outline: none;
+}
+
+input[type=email]:focus {
+  border: 2px;
+  border-color: #f7f7f7;
+  background-color: #f7f7f7;
+  outline: none;
+}
+
+.el-textarea__inner:focus {
+  border: 5px;
+  background-color: #f7f7f7;
+  outline: none;
+}
+
+input[type=text] {
+  border: 2px;
+  border-color: #f7f7f7;
+  background-color: #f7f7f7;
+}
+
+input[type=email] {
+  border: 2px;
+  border-color: #f7f7f7;
+  background-color: #f7f7f7;
+}
+
+.el-textarea__inner {
+  border: 5px;
+  background-color: #f7f7f7;
+}
+
+
+.tk-comments-no {
+  display: none;
+}
+

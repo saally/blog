@@ -62,7 +62,8 @@ h6 {
 }
 
 hr {
-  border: 1px solid #f3f3f3;
+ /* border-top: 10px solid #f3f3f3; */
+ display: none;
 }
 
 /*basic styles ends*/
@@ -264,7 +265,7 @@ hr {
 
 .post .post_footer {
   padding: 20px 0;
-  /*border-bottom: 1px solid #f3f3f3; */
+  border-bottom: 1px solid #f3f3f3;
 }
 
 .post .post_footer .meta {
@@ -324,8 +325,9 @@ hr {
 .doc_comments {
   font-size: 14px;
   color: #383838;
-  margin-top: 30px;
-  padding: 35px 0 45px;
+  margin-top: 0px;
+  margin-right: 10px;
+  padding: 15px 0 45px;
 }
 
 .doc_comments .comments_block_title {
