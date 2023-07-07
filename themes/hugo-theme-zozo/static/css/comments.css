@@ -1,3 +1,87 @@
+/*
+twikoo style reference:
+https://github.com/lovezsh/hexo-theme-simple99/blob/main/source/css/twikoo.css
+*/
+
+.twikoo {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.el-textarea__inner {
+  height: 50px !important;
+  border: #f7f7f7;
+}
+
+.tk-time {
+  display: inline !important;
+}
+
+/* text comment */
+.tk-content {
+  font-size: 15px;
+  padding: 1px 0;
+  border-radius: 5px;
+}
+
+
+/* thumbs up and comment icon.
+mute
+*/
+.tk-action-link {
+  display: none;
+}
+.tk-action-icon {
+  display: none;
+}
+.tk-avatar {
+    display: none;
+}
+
+
+/* style at the bottom of the page */
+.tk-comment {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+/* don't display total comments */
+.tk-comments-count {
+  display: none !important;
+}
+
+/* nickname */
+.el-input-group__prepend {
+    background-color: #f7f7f7 !important;
+    color           : #000000 !important;
+    border          : #f7f7f7 !important;
+    border-radius: 20%;
+}
+
+.el-input-group__append {
+    border: none !important;
+    border-radius: 20%;
+}
+
+
+.el-button {
+  color: #000000;
+  background-color: #f7f7f7;
+  border: none;
+}
+
+.el-button[disabled] {
+  color: #000000;
+  background-color: #f7f7f7;
+  border: none;
+}
+
+
+.el-button:hover {
+  color: #FFFFFF;
+  border-color: #000000;
+  background-color: #303538;
+}
 
 .v .vwrap {
   border-radius: unset;
