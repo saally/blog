@@ -57,7 +57,7 @@ Web Image
 
 Local Image
 
-![Local Image](100.jpg)
+![Local Image](/images/100.jpg)
 
 ```
 
@@ -67,7 +67,7 @@ Web Image
 
 Local Image
 
-![Local Image](/100.jpg)
+![Local Image](/images/100.jpg)
 
 
 # Block Quotes
