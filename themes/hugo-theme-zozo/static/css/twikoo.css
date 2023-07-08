@@ -87,6 +87,13 @@ https://github.com/lovezsh/hexo-theme-simple99/blob/main/source/css/twikoo.css
   border: none;
 }
 
+.twikoo .el-button--primary.is-disabled:hover {
+  color: #000000;
+  background-color: #f7f7f7; !important
+  border: none;
+}
+
+
 .el-button:hover {
   color: #FFFFFF;
   border-color: #000000;
