@@ -36,4 +36,8 @@ slug: "build-blog"
 主要是修改了 留言部分 的[css](https://github.com/saally/blog/blob/master/themes/hugo-theme-zozo/static/css/twikoo.css)，与博客theme一致。删去了很多不必要的元素。
 同时默认comment部分为隐藏，不影响阅读。
 
+有一个trick是可以通过chrome 查看每个元素叫啥名字，这样调整起来一一对应，非常方便。
+
+弄完了之后，可以自豪的声称：我是一个full stack engineer了哈哈哈
+
 ---
